@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root {
+    --ff: "Inter", sans-serif;
+    --tf: "Raleway", sans-serif;
+    --colorbody: #0d0d0E;
+    --colorwhite: #ffffff;
+    --colorblack: black;
+    --colorprimary1: #F89C3D;
+    --colorprimary2: #F27934;
+    --colorsecondary1: #41E0FD;
+    --colorsecondary2: #08B6D6;
+    --colorgradientprimary: linear-gradient(45deg, var(--colorprimary1) 0%, var(--colorprimary2) 90%);
+    --colorgradientsecondary: linear-gradient(45deg, var(--colorsecondary1) 0%, var(--colorsecondary2) 100%);
+    --h1: bold 32px var(--tf);
+    --h2: 600 20px var(--ff);
+    --p: 200 16px/24px var(--ff);
+
+}
+
+body {
+    max-width: 1280px;
+    width: 60%;
+    margin: 96px 20% 24px;
+    background-color: var(--colorbody);
+    color: var(--colorwhite);
+    row-gap: 160px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+/* Fonts */
+
+h1 {
+    font: var(--h1);
+    margin: 0px;
+
+}
+
+.h1 {
+    font: var(--h1);
+    margin: 0px;
+    max-width: max-content;
+
+}
+
+p {
+    font: var(--p);
+    margin: 0px;
+
+}
+
+h2 {
+    font: var(--h2);
+    margin: 0px;
+}
+
+.h2 {
+    font: var(--h2);
+    margin: 0px;
+    max-width: max-content;
+
+    
+}
+
+.brcustom {
+    display: block;
+    margin-bottom: 10px;
+
+}
+
+/* gradient colors */
+
+.gradientprimary {
+    background: var(--colorgradientprimary);
+    color: transparent;
+    background-clip: text;
+}
+
+.gradientsecondary {
+    background: var(--colorgradientsecondary);
+    color: transparent;
+    background-clip: text;
+
+}
+
+/* Links and Logo */
+
+a {
+    text-decoration: none;
+    color: var(--colorwhite);
+}
+
+a:hover {
+    text-decoration: none;
+    opacity: 80%;
+}
+
+.socialMedia {
+    display: flex;
+    max-width: max-content;
+    gap: 16px;
+    margin-top: 16px;
+    align-items: center;
+}
+
+.joindiscord {
+    background: var(--colorgradientprimary);
+    font: var(--h2);
+    padding: 12px 30px;
+    text-decoration: none;
+    color: var(--colorwhite);
+    border-radius: 16px;
+    display: flex;
+    max-width: max-content;
+
+    
+
+}
+
+.discordLogo {
+    height: 20px;
+    fill: var(--colorwhite);
+    margin-top: 2px;
+    margin-left: 8px;
+
+}
+
+.whiteLogo {
+    fill: var(--colorwhite);
+    width: 32px;
+}
+
+.bloglist {
+    row-gap: 24px;
+    display: grid;
+}
+
+.blogLinkDate {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+.blogLink {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+
+}
+
+
+.blog {
+    row-gap: 16px;
+    display: grid;
+}
+
+.allRightsReserved {
+    align-self: center;
+
+}
+
+
