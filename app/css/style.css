@@ -21,9 +21,8 @@
 }
 
 body {
-    max-width: 1280px;
-    width: 60%;
-    margin: 96px 20% 24px;
+    max-width: 720px;
+    margin: 96px 15% 24px;
     background-color: var(--colorbody);
     color: var(--colorwhite);
     row-gap: 160px;
