@@ -21,14 +21,18 @@
 }
 
 body {
-    max-width: 720px;
     margin: 96px 15% 24px;
     background-color: var(--colorbody);
     color: var(--colorwhite);
-    row-gap: 160px;
+    row-gap: 80px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    align-items: center;
+}
+
+div {
+    max-width: 640px;
 }
 
 
@@ -44,7 +48,7 @@ h1 {
     font: var(--h1);
     margin: 0px;
     max-width: max-content;
-
+    
 }
 
 p {
@@ -99,6 +103,11 @@ a:hover {
     opacity: 80%;
 }
 
+.link {
+    font: var(--p);
+    color: var(--colorprimary1);
+}
+
 .socialMedia {
     display: flex;
     max-width: max-content;
@@ -137,6 +146,7 @@ a:hover {
 .bloglist {
     row-gap: 24px;
     display: grid;
+    width: 100%;
 }
 
 .blogLinkDate {
@@ -151,7 +161,7 @@ a:hover {
 .blogLink {
     display: flex;
     flex-direction: column;
-    row-gap: 8px;
+    row-gap: 4px;
 
 }
 
